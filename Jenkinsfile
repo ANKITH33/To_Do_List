@@ -7,7 +7,7 @@ pipeline {
 
     environment {
         DOCKER_IMAGE = "ankith33/imt2023075-se"
-        DOCKER_CREDENTIALS = "dockerhub"
+        DOCKER_CREDENTIALS = "dockerhub-creds"
     }
 
     stages {
