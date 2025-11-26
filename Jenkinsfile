@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    tools {
+        maven 'Maven3'
+    }
+
     environment {
         DOCKER_IMAGE = "ankith33/imt2023075-se"
         DOCKER_CREDENTIALS = "dockerhub"
